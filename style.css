@@ -1,0 +1,15 @@
+h3{
+    color: blue;
+}
+#a1001{
+    color: red;
+}
+.c1001{
+    color: black;
+}
+body{
+    background-color: rgb(235, 206, 206);
+}
+#a1001,.c1001{
+    background-color:brown;
+}
