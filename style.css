@@ -5,11 +5,29 @@ h3{
     color: red;
 }
 .c1001{
+    border: 2px solid blue;
     color: black;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: blue; */
+    border-radius: 25px;
+}
+h2{
+    margin: 50px 199px 10px 199px;
+    /* margin-top: 50px;
+    margin-left: 199px;
+    margin-bottom: 10px;
+    margin-right: 199px; */
 }
 body{
-    background-color: rgb(235, 206, 206);
-}
+    background: url("png1.png") no-repeat right top;
+    /* background-color: rgba(214, 152, 152, 0.562); */
+    /* background-image: url("png1.png");
+    background-repeat: no-repeat; */
+    background-size:200px;
+    /* background-position: right top; */
+    background-attachment: scroll;
+}   
 #a1001,.c1001{
-    background-color:brown;
+    background-color:rgb(223, 219, 219);
 }
