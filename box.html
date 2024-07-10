@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div positions</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main,.main1{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+        }
+        .sub,.sub1{
+            width:200px;
+            height:200px;
+            background-color: white;
+        }
+        .main{
+            margin-bottom: 10px;
+        }
+        .sub1{
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+        .bysub{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+
+        </div>
+    </div>
+    <div class="main1">
+        <div class="sub1">
+            <div class="bysub">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
