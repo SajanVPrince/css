@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zindex</title>
+    <style>
+        .main{
+            position: relative;
+        }
+        .blackbox{
+            color: white;
+            position: relative;
+            z-index: 1;
+            background: black;
+            border: 2px solid rgb(252, 2, 2);
+            height: 200px;
+            width: 50%;
+            margin: 50px;
+        }
+        .greenbox{
+            color: blue;
+            text-align: center;
+            line-height: 3;
+            position: absolute;
+            z-index: 3;
+            background: rgb(2, 250, 43);
+            height: 60px;  
+            width: 30%;
+            left: 322px;
+            top: 50px;
+        }
+        .graybox{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 30px 2px;
+            position: absolute;
+            z-index: 2;
+            background: rgb(74, 80, 74);
+            width: 45%;
+            left: 100px;
+            top: 90px;
+            /* height: 100px; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="blackbox">black box (zindex 1 it will be the background)</div>
+    <div class="greenbox">greenbox (zindex 3 it will be in front) </div>
+    <div class="graybox">graybox (zindex 2 it will in middle of black and green)</div>
+</div>
+</body>
+</html>
