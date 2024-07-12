@@ -8,7 +8,20 @@
         img{
             display: block;
             margin: auto;
-            width:50%
+            width:50%;
+            opacity: 0.3;
+        }
+        img:hover{
+            opacity: 0.9;
+        }
+        div {
+            background-color: green;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        div:hover{
+            background-color: rgb(228, 43, 43);
         }
         .center{
             margin: auto;
@@ -16,15 +29,23 @@
             border: 2px solid black;
             padding: 10px;
         }
+        h1{
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        div:hover h1 {
+            display: block;
+        }
     </style>
 </head>
 <body>
     <h4><center><b>Center an image</b></center></h4>
-    <div>
     <img src="./images/bgimg1.jpg" alt="not availible"><br><br>
-    </div>
     <div class="center">
         <p>Helloo...</p>
+        <h1>Sajanvprince</h1>
     </div>
 </body>
 </html>
