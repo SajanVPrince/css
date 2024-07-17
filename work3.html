@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: aquamarine;
+            width: 90%;
+            height:600px;
+            margin:20px 50px;
+            display: flex;
+            align-items: stretch;
+            border-radius: 20px;
+        }
+        .div1,.div2,.div3{
+            width: 30%;
+            height:500px;
+            background-color: rgba(0, 0, 255, 0.308);
+            margin: 50px;
+            border-radius: 20px;
+            
+        }
+        .sub1,.sub2{
+            width: 100%;
+            height: 250px;
+            border-radius: 20px;
+        }
+        p{
+            font-size: large;
+            margin: 5px 5px;
+        }
+        .im1{
+            opacity: 0.5;
+        }
+        .im1:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1" style="flex-grow: 1">
+             <div class="sub1">
+                <img src="./images/nivin.jpg" alt="" width="100%" height="250px" class="im1">
+             </div>
+             <div class="sub2">
+                <h2><u>Nivin Pauly</u></h2>
+                <p>Nivin Pauly is an Indian actor and producer who works predominantly in Malayalam films. He is the recipient of several awards, including two Kerala State Film Awards, three Filmfare Awards South, two Kerala Film Critics Association Awards, and six SIIMA Awards.</p>
+             </div>   
+        </div>
+        <div class="div2" style="flex-grow: 1">
+             <div class="sub1">
+                <img src="./images/rohit.jpg" alt="" width="100%" height="250px" class="im1">
+             </div>
+             <div class="sub2">
+                <h2><u>Rohit Sharma</u></h2>
+                <p>Rohit Gurunath Sharma is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International matches</p>
+             </div>   
+        </div>
+        <div class="div3" style="flex-grow: 1">
+             <div class="sub1">
+                <img src="./images/mammotty.jpg" alt="" width="100%" height="250px" class="im1">
+             </div>
+             <div class="sub2">
+                <h2><u>Mammotty</u></h2>
+                <p>Muhammad Kutty Panaparambil Ismail, known mononymously by the hypocorism Mammootty, is an Indian actor and film producer who works predominantly in Malayalam-language films. He has also appeared in Tamil, Telugu, Kannada, Hindi, and English-language productions.</p>
+             </div>       
+        </div>
+    </div>
+</body>
+</html>
