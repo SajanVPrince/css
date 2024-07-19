@@ -18,37 +18,76 @@
             'sub sub img'
             'msg msg img'
             'footer footer img';
+            grid-template-rows: 60px 300px 70px 50px;
             background-color: aqua;
             padding: 10px;
         }
         .head{
-            background-color: black;
+            background-color: rgb(136, 132, 132);
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(9, 82, 3);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;
         }
         .nav{
-            background-color: aquamarine;
+            background-color: rgb(233, 196, 199);
+            padding-top: 20px;
+        }
+        a{
+            color: rgb(201, 23, 112);
+            font-size: large;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            padding-left: 90px;
+            text-decoration: none;
         }
         .sub{
-            background-color: blue;
-        }
-        .img{
-            background-color: blueviolet;
+            background-color: rgb(255, 255, 255);
         }
         .msg{
-            background-color: brown;
+            background-color: rgb(101, 194, 113);
         }
         .footer{
             background-color: pink;
+            display: flex;
+            flex-direction: row;
+        }
+        .btn1{
+            background-color: green;
+            width: 50%;
+            text-align: center;
+            padding-top: 15px;
+        }
+        .btn2{
+            background-color: lightgreen;
+            width: 50%;
+            text-align: center;
+            padding-top: 15px;
+        }
+        p{
+            line-height: 30px;
+        }
+        h2{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="head">Head</div>
-        <div class="nav">nav</div>
-        <div class="sub">sub</div>
-        <div class="img">img</div>
-        <div class="msg">msg</div>
-        <div class=" footer">footer</div>
+        <div class="head">WEB DAIRY</div>
+        <div class="nav">
+            <a href="">HOME</a><a href="">ABOUT</a><a href="">CONTACT</a>
+        </div>
+        <div class="sub">
+            <h2>CSS GRID EXAMPLE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi fugiat labore culpa, rem ex velit nemo sequi placeat voluptatum ab laboriosam non suscipit, amet ut reiciendis natus nostrum deserunt? Nam.</p></div>
+        <div class="img"><img src="./images/nivin.jpg" alt="" width="100%" height="100%"></div>
+        <div class="msg"><h2>"Lorem ipsum dolor sit amet consectetur, adipisicing elit"</h2></div>
+        <div class=" footer">
+            <div class="btn1">Read more</div>
+            <div class="btn2">View all</div>
+        </div>
     </div>
 </body>
 </html>
