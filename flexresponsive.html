@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .sub{
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+        .main::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 992px) {
+        .sub {width: 50%;}
+        }
+        @media screen and (max-width:600px) {
+            .sub{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub" style="background-color: #aaa;">
+            <h2>
+                Coulums 1
+            </h2>
+            <p>Some text...</p>
+            <a href="" class="a2">Shop</a>
+        </div>
+        <div class="sub" style="background-color: #bbb;">
+            <h2>
+                Coulums 2
+            </h2>
+            <p>Some text...</p>
+            <a href="" class="a2">Shop</a>
+        </div>
+        <div class="sub" style="background-color: #ccc;">
+            <h2>
+                Coulums 3
+            </h2>
+            <p>Some text...</p>
+            <a href="" class="a2">Shop</a>
+        </div>
+        <div class="sub" style="background-color: #ddd;">
+            <h2>
+                Coulums 4
+            </h2>
+            <p>Some text...</p>
+            <a href="" class="a2">Shop</a>
+        </div>
+    </div>
+</body>
+</html>
