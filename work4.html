@@ -71,6 +71,18 @@
         h2{
             text-align: center;
         }
+        @media screen and (max-width:600px) {
+            .main{
+            grid-template-areas: 
+            'head head'
+            ' nav nav'
+            'sub sub'
+            'img img'
+            'msg msg'
+            'footer footer';
+            grid-template-rows: 50px 50px 270px 250px 80px 80px;
+        } 
+        }
     </style>
 </head>
 <body>
